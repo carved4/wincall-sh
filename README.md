@@ -9,7 +9,7 @@ this project demonstrates creative shellcode execution techniques using the go-w
 this is a research and educational tool designed to show the capabilities of the go-wincall API in shellcode operations. it explores obscure windows APIs and callback mechanisms that can be used for shellcode execution.
 
 ## execution methods
-
+>all use the x64 winexec calc shellcode stored in hex format in get.go
 ### timer queue callback
 - `ExecuteViaTimerQueue()` - uses `CreateTimerQueueTimer` to register shellcode as a timer callback
 - `DeleteTimer()` - cleans up timer queue timer
