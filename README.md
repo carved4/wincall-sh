@@ -61,7 +61,7 @@ this is a research and educational tool designed to show the capabilities of the
 go build -o wincallsh.exe cmd/main.go
 
 # run with different execution methods
-./shellcode.exe
+./wincallsh.exe
 ```
 
 ## technical details
